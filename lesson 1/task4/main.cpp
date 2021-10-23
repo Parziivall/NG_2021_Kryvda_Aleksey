@@ -1,19 +1,17 @@
 #include <iostream>
 #include <cmath>
-#include <windows.h>
 
 using namespace std;
 
 int main()
 {
-    system("chcp 1251 & cls");
     double a, b, c, d, x1, x2;
 
-    cout << "¬ведите a: ";
+    cout << "Enter a: ";
     cin >> a;
-    cout << "¬ведите b: ";
+    cout << "Enter b: ";
     cin >> b;
-    cout << "¬ведите c: ";
+    cout << "Enter c: ";
     cin >> c;
 
     d = b * b - 4 * a * c;
@@ -30,7 +28,7 @@ int main()
       cout << "x1 = x2 = " << x1 << "\n";
     }
     if (d < 0){
-        cout << "D < 0, корней нету";
+        cout << "D < 0, no roots";
     }
 }
 
