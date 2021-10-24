@@ -6,9 +6,9 @@ int main()
 
 {
 int a,b;
-cout<<"Vvedite visotu: ";
+cout<<"Enter height: ";
 cin>>a;
-cout<<"Vvedite IIIupuHy: ";
+cout<<"Enter weight: ";
 cin>>b;
 
 for (int i = 1; i <= a; i++)
