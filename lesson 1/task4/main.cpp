@@ -26,8 +26,7 @@ int main()
     {
       x1 = -(b / (2 * a));
       cout << "x1 = x2 = " << x1 << "\n";
-    }
-    if (d < 0){
+    } else {
         cout << "D < 0, no roots";
     }
 }
