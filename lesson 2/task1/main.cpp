@@ -1,22 +1,17 @@
 #include <iostream>
-#include <cmath>
 
 using namespace std;
 
 int main()
 {
-    int a, b, c, d, e;
-    cout << "Enter first number: ";
-    cin >> a;
-    cout << "Enter second number: ";
-    cin >> b;
-    cout << "Enter third number: ";
-    cin >> c;
-    cout << "Enter four number: ";
-    cin >> d;
-
-    // a + b + c + d = e
-    e = a + b + c + d;
-    cout << "e = " << e << endl;
+    int n = 0;
+	int r = 0;
+    cout << "Enter your number: ";
+    cin >> n;
+    for(int i=n; i>0; i/=10)
+	{
+			r +=i%10;
+	}
+    cout << "The sum of all numbers is: " << r << endl;
     return 0;
 }
