@@ -21,6 +21,7 @@ int main()
         x2 = ((-b) - sqrt(d)) / (2 * a);
         cout << "x1 = " << x1 << "\n";
         cout << "x2 = " << x2 << "\n";
+        return 0;
     }
     if (d == 0)
     {
