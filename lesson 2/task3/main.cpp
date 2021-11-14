@@ -3,28 +3,25 @@
 using namespace std;
 
 int main()
-
 {
-int a,b;
-cout<<"Enter height: ";
-cin>>a;
-cout<<"Enter weight: ";
-cin>>b;
-
-for (int i = 1; i <= a; i++)
-{
-    if (i == 1 || i == a)
-    for(int c = 1; c <= b; c++) cout << "*";
-    else
+  cout << "Enter size: ";
+  int s;
+  cin >> s;
+  for (int height  = 0; height < s; height++)
+  {
+    for (int width = 0; width < s; width++)
     {
-        cout << "*";
-        for (int c = 1; c <=(b-2); c++) cout << " ";
-        cout << "*";
+      if ((height == 0) or (width == 0) or (height == s - 1) or (width == s - 1))
+        {
+          cout << "*";
+        }
+        else
+        {
+         cout << " ";
+        }
 
     }
-
-    cout << "\n";
-
-}
-
+    cout << endl;
+  }
+  return 0;
 }
