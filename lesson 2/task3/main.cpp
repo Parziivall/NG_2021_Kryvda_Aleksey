@@ -11,7 +11,7 @@ int main()
   {
     for (int width = 0; width < s; width++)
     {
-      if ((height == 0) or (width == 0) or (height == s - 1) or (width == s - 1))
+      if ((height == 0) || (width == 0) || (height == s - 1) || (width == s - 1))
         {
           cout << "*";
         }
